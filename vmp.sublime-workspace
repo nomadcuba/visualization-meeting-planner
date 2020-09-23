@@ -1,0 +1,1195 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"on",
+				"onchange\tAttr"
+			],
+			[
+				"st",
+				"strong\t<strong>"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"va",
+				"value\tAttr"
+			],
+			[
+				"bo",
+				"bootstrap-select/"
+			],
+			[
+				"ma",
+				"margin-right\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"n",
+				"nouislider.min.js"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"Ma",
+				"Math"
+			],
+			[
+				"t",
+				"time_after_draw"
+			],
+			[
+				"i",
+				"isInteger"
+			],
+			[
+				"b",
+				"beginPath"
+			],
+			[
+				"sh",
+				"ScheduleDay"
+			],
+			[
+				"s",
+				"startY"
+			],
+			[
+				"per",
+				"persona1Schedule"
+			],
+			[
+				"d",
+				"drawFreeTime"
+			],
+			[
+				"tim",
+				"time_after_draw"
+			],
+			[
+				"fr",
+				"freeTime"
+			],
+			[
+				"fi",
+				"fillStyle"
+			],
+			[
+				"lap",
+				"lapse"
+			],
+			[
+				"v",
+				"validMeetDayLapse"
+			],
+			[
+				"val",
+				"validMeetDayLapse"
+			],
+			[
+				"lapse",
+				"valid_lapse"
+			],
+			[
+				"I",
+				"IntToTime"
+			],
+			[
+				"she",
+				"sheduleCompare"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"cur",
+				"cursorDelete"
+			],
+			[
+				"dr",
+				"drawSheduleBusyTime"
+			],
+			[
+				"pers",
+				"persona1Shedule"
+			],
+			[
+				"shed",
+				"sheduleDay"
+			],
+			[
+				"star",
+				"startX"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"ga",
+				"gameOverMessage"
+			],
+			[
+				"game",
+				"game_over_sound"
+			],
+			[
+				"alert",
+				"alerta_sound"
+			],
+			[
+				"ale",
+				"alerta_sound"
+			],
+			[
+				"co",
+				"countInfected"
+			],
+			[
+				"in",
+				"countInfected"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"au",
+				"autoplay\tAttr"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"h",
+				"howler.min.js"
+			],
+			[
+				"bu",
+				"buffer-loader.js"
+			],
+			[
+				"p",
+				"playsounds.js"
+			],
+			[
+				"a",
+				"audio"
+			],
+			[
+				"vide",
+				"video\t<video>"
+			],
+			[
+				"int",
+				"intval"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"bt",
+				"button\tTag"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"cl",
+				"client_data"
+			],
+			[
+				"dev",
+				"device_model"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"idioma",
+				"idioma_docente"
+			],
+			[
+				"sta",
+				"$status〔variable〕"
+			],
+			[
+				"id_",
+				"id_persona"
+			],
+			[
+				"id",
+				"idiomas"
+			],
+			[
+				"all",
+				"allBorders"
+			],
+			[
+				"X",
+				"Xls〔namespace〕"
+			],
+			[
+				"W",
+				"Writer〔namespace〕"
+			],
+			[
+				"S",
+				"Spreadsheet〔class〕"
+			],
+			[
+				"especiali",
+				"especialidad"
+			],
+			[
+				"espec",
+				"especialidad"
+			],
+			[
+				"an",
+				"anno_graduado"
+			],
+			[
+				"especialidad",
+				"especialidad.nombre"
+			],
+			[
+				"personad",
+				"persona.id_entidad"
+			],
+			[
+				"iss",
+				"isset"
+			],
+			[
+				"_f",
+				"_fill_js"
+			],
+			[
+				"this",
+				"this\tPHP: $this->"
+			],
+			[
+				"bs",
+				"bs3-form\tbs3-form"
+			],
+			[
+				"htm",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"entidad",
+				"ent.entidad_padre"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"pu",
+				"pub\tPHP: public class method declaration"
+			],
+			[
+				"_",
+				"_grid_js"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"str",
+				"str_array"
+			],
+			[
+				"user",
+				"users_groups"
+			],
+			[
+				"function",
+				"function"
+			],
+			[
+				"fiel",
+				"fields"
+			],
+			[
+				"ta",
+				"target"
+			],
+			[
+				"_t",
+				"_title_singular"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"print",
+				"print_r〔function〕"
+			],
+			[
+				"scri",
+				"script\t<script>"
+			],
+			[
+				"tem",
+				"$temp〔variable〕"
+			],
+			[
+				"tipo",
+				"tipo_entidad"
+			],
+			[
+				"moda",
+				"modal_accion"
+			],
+			[
+				"arr",
+				"description-Array\tArray"
+			],
+			[
+				"pa",
+				"parent"
+			],
+			[
+				"clearC",
+				"clearConfirm〔function〕"
+			],
+			[
+				"conf",
+				"confirm〔argument〕"
+			],
+			[
+				"btn-pry",
+				"btn-primary"
+			],
+			[
+				"bs3-c",
+				"bs3-clearfix\tbs3-clearfix"
+			],
+			[
+				"base",
+				"base_url〔function〕"
+			],
+			[
+				"bas",
+				"base_url〔function〕"
+			],
+			[
+				"html",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"ha",
+				"hasClass〔function〕"
+			],
+			[
+				"wi",
+				"width\t = 'inherit' Style CSS"
+			],
+			[
+				"bs3",
+				"bs3-alert\tbs3-alert"
+			],
+			[
+				"strea",
+				"stream_container"
+			],
+			[
+				"stre",
+				"stream_container"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"ech",
+				"echo"
+			],
+			[
+				"site",
+				"site\tCI - URL Helper - site_url"
+			],
+			[
+				"pad",
+				"padding-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 9502,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.min.css",
+			"settings":
+			{
+				"buffer_size": 172111,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 17947,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"A File Icon: Revert to a Freshly Installed State"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"I",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: bs3-carousel"
+			],
+			[
+				"Snippet: aj",
+				"Snippet: Input Is AJAX Request"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/Visualization/VMP",
+		"/G/Visualization/VMP/css"
+	],
+	"file_history":
+	[
+		"/G/Enlace Audio en tiempo real CMKS",
+		"/C/Users/nomad/Desktop/Visualization/VMP/index.html",
+		"/C/Users/nomad/Desktop/Visualization/VMP/js/app.js",
+		"/C/Users/nomad/Desktop/Calendar.py",
+		"/C/Users/nomad/Desktop/Visualization/index.html",
+		"/C/Users/nomad/Desktop/Visualization/AdminBSBMaterialDesign-master/js/app.js",
+		"/C/Users/nomad/Desktop/Visualization/AdminBSBMaterialDesign-master/js/script.js",
+		"/C/Users/nomad/Desktop/Visualization/AdminBSBMaterialDesign-master/js/demo.js",
+		"/C/laragon/www/sigesct/vendor/dompdf/dompdf/src/Frame.php",
+		"/C/Users/nomad/Desktop/Calendar",
+		"/C/laragon/www/sigesct/application/controllers/Curso.php",
+		"/C/laragon/www/sigesct/application/views/tablas/curso/curso.php",
+		"/E/Blizzard/World of Warcraft/_classic_/WTF/Config.wtf",
+		"/C/laragon/www/sigesct/application/views/tablas/commons/common_grid_js.php",
+		"/C/laragon/www/sigesct/application/views/tablas/curso/curso_grid_js.php",
+		"/C/Users/nomad/Desktop/SIGESCT_curso_demo/curso.sql",
+		"/C/laragon/www/sigesct/application/core/Base_Model.php",
+		"/C/laragon/www/sigesct/application/controllers/Docente.php",
+		"/C/laragon/www/sigesct/application/core/controllers/Grid_Controller.php",
+		"/C/Users/nomad/Desktop/configuration.php",
+		"/C/Users/nomad/AppData/Local/Temp/fz3temp-2/configuration.php",
+		"/C/Users/nomad/Desktop/index.html.txt",
+		"/C/Users/nomad/Desktop/Coronavirus/js/main.js",
+		"/C/Users/nomad/Desktop/Coronavirus/css/style.css",
+		"/C/Users/nomad/Desktop/Coronavirus/index.html",
+		"/C/Users/nomad/Desktop/covid/index.html",
+		"/C/Users/nomad/Desktop/covid/js/main.js",
+		"/C/Users/nomad/Desktop/Coronavirus/main.js",
+		"/C/Users/nomad/Desktop/Coronavirus/js/buffer-loader.js",
+		"/C/Users/nomad/Desktop/Coronavirus/js/playsounds.js",
+		"/C/Users/nomad/Desktop/Coronavirus/js/playsounds",
+		"/C/Users/nomad/Downloads/public/public/style.css",
+		"/C/Users/nomad/Downloads/public/public/index.html",
+		"/E/Proyectos/Support Tickets/flexernow/user/support.php",
+		"/E/Proyectos/Support Tickets/flexernow/user/read_ticket.php",
+		"/E/Proyectos/Support Tickets/flexernow/user/get_my_tickets.php",
+		"/E/Proyectos/Support Tickets/flexernow/admin/includes/side-navbar.inc.php",
+		"/E/Proyectos/Support Tickets/flexernow/user/includes/side_navbar.inc.php",
+		"/E/Proyectos/Support Tickets/tickets.sql",
+		"/E/Proyectos/Support Tickets/flexernow/user/create_ticket.php",
+		"/E/Proyectos/Support Tickets/html/user/includes/helper_functions.inc.php",
+		"/E/000_Amazon/APK/token/TokenPostRequest.txt",
+		"/E/Proyectos/Support Tickets/html/login_user.php",
+		"/E/Proyectos/Support Tickets/dbs318519.sql",
+		"/E/000_Amazon/APK/APK Easy Tool v1.56 Portable/1-Decompiled APKs/AmazonLast/smali/com/amazon/identity/auth/device/cbl/b.smali",
+		"/E/Proyectos/Support Tickets/html/user/dashboard.php",
+		"/E/000_Amazon/APK/APK Easy Tool v1.56 Portable/1-Decompiled APKs/AmazonLast/smali/com/amazon/identity/auth/device/utils/AccountConstants.smali",
+		"/E/000_Amazon/APK/APK Easy Tool v1.56 Portable/1-Decompiled APKs/AmazonLast/smali/com/amazon/identity/auth/device/metadata/a.smali",
+		"/E/000_Amazon/APK/APK Easy Tool v1.56 Portable/1-Decompiled APKs/AmazonLast/smali/com/amazon/identity/kcpsdk/auth/ad.smali",
+		"/E/000_Amazon/APK/APK Easy Tool v1.56 Portable/1-Decompiled APKs/AmazonLast/smali/com/amazon/identity/kcpsdk/auth/af.smali",
+		"/E/000_Amazon/APK/APK Easy Tool v1.56 Portable/1-Decompiled APKs/AmazonLast/smali/com/amazon/identity/kcpsdk/auth/RegisterDeviceRequest.smali",
+		"/E/000_Amazon/APK/APK Easy Tool v1.56 Portable/1-Decompiled APKs/AmazonLast/smali/com/amazon/rabbit/android/business/authentication/MAPDeviceDataProvider.smali",
+		"/E/000_Amazon/APK/APK Easy Tool v1.56 Portable/1-Decompiled APKs/AmazonLast/smali/com/amazon/rabbit/android/data/ees/dao/ExecutionEventDaoConstants.smali",
+		"/C/Users/nomad/Desktop/select2_ajax_select.js",
+		"/E/Android_Dev/Flexernow/app/release/output.json",
+		"/E/000_Amazon/APK/Tokens/FlexerNowActivator.txt",
+		"/E/000_Amazon/APK/Proceso de Registro de Device",
+		"/E/000_Amazon/APK/Tokens/ManeraDeYoObtenerlo.txt",
+		"/E/000_Amazon/APK/Tokens/Verificación token",
+		"/E/000_Amazon/APK/token/TokenPostResponse.txt",
+		"/E/000_Amazon/APK/token/Toast.smali",
+		"/E/000_Amazon/APK/APK Easy Tool v1.56 Portable/1-Decompiled APKs/AmazonLast/smali/com/amazon/rabbit/android/data/gateway/translators/CoralDeviceJSONToDeviceTranslator.smali",
+		"/C/Users/nomad/Desktop/auth_token_settings.sql",
+		"/E/000_Amazon/APK/APK Easy Tool v1.56 Portable/1-Decompiled APKs/AmazonLast/smali_classes3/com/amazon/whisperjoin/provisioning/constants/BluetoothConstants.smali",
+		"/E/000_Amazon/APK/APK Easy Tool v1.56 Portable/1-Decompiled APKs/AmazonLast/smali_classes3/com/amazon/whisperjoin/provisioning/metrics/client/helpers/DeviceMetrics.smali",
+		"/E/000_Amazon/APK/APK Easy Tool v1.56 Portable/1-Decompiled APKs/AmazonLast/smali/com/amazon/identity/auth/device/api/MAPAccountManager.smali",
+		"/E/000_Amazon/APK/APK Easy Tool v1.56 Portable/1-Decompiled APKs/AmazonLast/smali/com/amazon/identity/auth/device/api/DeviceDataKeys.smali",
+		"/E/000_Amazon/APK/token/Toast",
+		"/C/Users/nomad/AppData/Local/Temp/scp03007/api/application/controllers/Api.php",
+		"/C/Users/nomad/AppData/Local/Temp/scp58620/api/application/config/database.php",
+		"/C/Users/nomad/AppData/Local/Temp/scp53950/api/application/controllers/Api.php",
+		"/E/000_Amazon/APK/Tokens/Api.php",
+		"/E/Android_Dev/Flexernow/app/build.gradle",
+		"/E/Android_Dev/Flexernow/settings.gradle",
+		"/E/Android_Dev/Flexernow/build.gradle",
+		"/E/000_Amazon/APK/SampleLoginWithAmazonAppForAndroid/build.gradle",
+		"/E/000_Amazon/APK/LAST Flex/gradle_style/build.gradle",
+		"/C/Users/nomad/AppData/Local/Temp/scp30638/api/application/controllers/Api.php",
+		"/E/000_Amazon/APK/Zero Flex Monster-win32-ia32/Zero Flex Monster-win32-ia32/resources/app/node_modules/combined-stream/package.json",
+		"/E/000_Amazon/APK/Zero Flex Monster-win32-ia32/Zero Flex Monster-win32-ia32/resources/app/node_modules/oauth-sign/package.json",
+		"/E/000_Amazon/APK/Zero Flex Monster-win32-ia32/Zero Flex Monster-win32-ia32/resources/app/node_modules/uri-js/dist/esnext/schemes/mailto.js.map",
+		"/C/Users/nomad/AppData/Local/Temp/scp41083/api/application/controllers/Api.php",
+		"/C/Users/nomad/AppData/Local/Temp/scp44097/api/application/controllers/Api.php",
+		"/C/Users/nomad/AppData/Local/Temp/scp14262/api/application/config/config.php",
+		"/C/laragon/www/flexernowapi/application/controllers/Api.php",
+		"/C/Users/nomad/AppData/Local/Temp/scp54408/helpers/DataBase.php",
+		"/C/Users/nomad/AppData/Local/Temp/scp16958/api/application/config/database.php",
+		"/C/Users/nomad/AppData/Local/Temp/scp30863/api/index.php",
+		"/C/Users/nomad/AppData/Local/Temp/scp18806/api/application/controllers/Api.php",
+		"/C/Users/nomad/AppData/Local/Temp/scp32815/logs/access.log.51.7",
+		"/C/laragon/www/flexernowapi/api.php",
+		"/C/laragon/www/flexernowapi/newfile.json",
+		"/E/Android_Dev/RG/app/build.gradle",
+		"/E/Android_Dev/FRCCookie/app/src/main/AndroidManifest.xml",
+		"/E/WOW/WTF/Config.wtf",
+		"/E/WOW/realmlist.wtf",
+		"/C/laragon/www/sigesct/application/controllers/Entidad.php",
+		"/C/laragon/www/sigesct/application/views/tablas/docente/docente.php",
+		"/C/laragon/www/sigesct/application/views/tablas/docente/docente_grid_js.php",
+		"/C/Users/nomad/AppData/Local/Temp/scp04433/var/www/html/index.php",
+		"/C/Users/nomad/AppData/Local/Temp/scp37289/var/www/html/polluxui/template/package.json",
+		"/C/Users/nomad/Desktop/polluxui.zip",
+		"/C/Users/nomad/AppData/Local/Temp/_tc/ci_bootstrap_3-master/sql/latest.sql",
+		"/C/Users/nomad/AppData/Local/Temp/_tc/Modular-CI-ION-Auth-Grocery-AdminLte-master/db/db.sql",
+		"/C/laragon/www/sigesct/application/views/tablas/usuario/usuario.php",
+		"/C/laragon/www/sigesct/application/views/tablas/usuario/usuario_grid_js.php",
+		"/C/laragon/www/sigesct/application/models/Usuario_model.php",
+		"/C/laragon/www/sigesct/application/core/Crud_model.php",
+		"/C/laragon/www/sigesct/application/models/Docente_model.php",
+		"/D/xampp/htdocs/nsigesct/application/libraries/Arbol.php",
+		"/D/xampp/htdocs/nsigesct/application/controllers/Docente.php",
+		"/D/xampp/htdocs/nsigesct/application/core/controllers/Grid_Controller.php",
+		"/D/xampp/htdocs/nsigesct/application/views/tablas/docente/docente_grid_js.php",
+		"/D/xampp/htdocs/nsigesct/application/views/tablas/docente/docente.php",
+		"/D/xampp/htdocs/nsigesct/application/controllers/Login.php",
+		"/D/xampp/htdocs/nsigesct/application/models/Entidad_model.php",
+		"/D/xampp/htdocs/nsigesct/application/libraries/MY_Pagination.php",
+		"/D/xampp/htdocs/nsigesct/application/libraries/MY_Email.php",
+		"/D/xampp/htdocs/nsigesct/application/helpers/pelper_helper.php",
+		"/D/xampp/htdocs/nsigesct/application/views/report.php",
+		"/D/xampp/htdocs/nsigesct/application/views/tablas/estudiante/estudiante_grid_js.php",
+		"/D/xampp/htdocs/nsigesct/application/views/_layouts/default.php",
+		"/D/xampp/htdocs/nsigesct/application/models/Docente_model.php",
+		"/D/xampp/htdocs/nsigesct/application/controllers/Welcome.php",
+		"/D/xampp/htdocs/nsigesct/application/controllers/Grupo.php",
+		"/D/xampp/htdocs/nsigesct/application/views/_partials/navbar.php",
+		"/D/xampp/htdocs/nsigesct/application/controllers/Estudiante.php",
+		"/D/xampp/htdocs/nsigesct/application/config/site.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"duration",
+			"30",
+			"Toastify",
+			"Data",
+			"generate",
+			"freeTime",
+			"drawFreeTime",
+			"#ffe821",
+			"250",
+			"console",
+			"stringHourToNumber",
+			"drawFreeTime",
+			"Shedule",
+			"sheduleCompare",
+			"_extra_actions"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Schedule",
+			"scheduleCompare"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3891,
+								3891
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3891,
+										3892
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										3882,
+										3883
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2100.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.min.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 172111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172055,
+								172055
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										172059,
+										172060
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										171977,
+										171978
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14360,
+								14360
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14369,
+										14370
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										14326,
+										14327
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 11250.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 157.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 37.0
+	},
+	"pinned_build_system": "",
+	"project": "vmp.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

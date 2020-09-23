@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Visualization of Meeting Planner</title>
+    <!-- Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+	<!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+
+    <!-- Bootstrap Core Css -->
+    <link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Waves Effect Css -->
+    <link href="plugins/node-waves/waves.css" rel="stylesheet" />
+
+    <!-- Animation Css -->
+    <link href="plugins/animate-css/animate.css" rel="stylesheet" />
+
+    
+
+    <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+    <link href="css/themes/all-themes.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="plugins/toastify/toastify.min.css">
+    <link rel="stylesheet" type="text/css" href="plugins/bootstrap-select/css/bootstrap-select.min.css">
+    <!-- Custom Css -->
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body class="theme-red">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="preloader">
+                <div class="spinner-layer pl-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <p>Loading...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a class="navbar-brand" href="index.html"><i class="material-icons" style="font-size:48px;margin-top: -12px;">event_available</i>Visualization of Meeting Planner</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+            	
+                <ul class="nav navbar-nav navbar-right">
+                    <li> 
+                        <select id="select-duration" class="form-control show-tick" onchange="updateDuration();">
+                            <option value="30">30 minutes duration</option>
+                            <option value="45">45 minutes duration</option>
+                            <option value="60">60 minutes duration</option>
+                        </select>
+                    </li>
+                    <li>
+                        <a id="link-generar-schedule" role="button" aria-expanded="true" onclick="generateRandomData(30);">
+                            <i class="material-icons">schedule</i>
+                            <strong>Generate Random Data</strong> 
+                        </a>
+                    </li>
+					<li>
+                        <a id="link-solution1" role="button" aria-expanded="true" onclick="solution1();">
+                            <i class="material-icons">call_merge</i>
+                            <strong>Solution 1(Merge)</strong> 
+                        </a>
+                    </li>
+
+					<li><a id="link-solution2" role="button" aria-expanded="true" onclick="solution2();">
+                            <i class="material-icons">call_split</i> <strong>Solution 2 (Separate)</strong>
+                        </a></li>
+                    <li>
+                    <a href="#" role="button" id="btn-download" download="vmp-solution.png" aria-expanded="true">
+                        <i class="material-icons">get_app</i> <strong>Image</strong>
+                    </a>
+                    </li>
+                    <li class="pull-right"><a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i class="material-icons">help</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+    <section>
+        <!-- Right Sidebar -->
+        <aside id="rightsidebar" class="right-sidebar">
+            <ul class="nav nav-tabs tab-nav-right" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#skins" data-toggle="tab">INFORMATION</a>
+                </li>
+                <li role="presentation">
+                    <a href="#settings" data-toggle="tab">MORE</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active in active" id="skins">
+                    
+                    <ul class="demo-choose-skin">
+                        <li>
+                            <span><strong>How to use Visualization of Meeting Planner?</strong></span>
+                        </li>
+                        <li>
+                            <span>1- Choose Meet Duration. By default is 30.</span>
+                        </li>
+                        <li>
+                            <span>2- Generate Random Data.</span>
+                        </li>
+                        <li>
+                            <span>3- Use Solution 1 and/or Solution 2, once at time.</span>
+                        </li>
+                        <li>
+                            <span>4- Image, download the Canvas as PNG.</span>
+                        </li>
+                        <li>
+                            <span>For reset the Data/Canvas, refresh the page or use Generate Random Data.</span>
+                        </li>
+                        <li>
+                            <span>Enjoy!!!</span>
+                        </li>
+                        <li>
+                            <span><strong>Color Info</strong></span>
+                        </li>
+                        <li>
+                            <div class="red"></div>
+                            <span>Busy Time</span>
+                        </li>
+                        <li>
+                            <div class="light-blue"></div>
+                            <span>Person Dailybound</span>
+                        </li>
+                        <li>
+                            <div class="teal"></div>
+                            <span>Merged Dailybound</span>
+                        </li>
+                        <li>
+                            <div class="green"></div>
+                            <span>Valid Meeting Time</span>
+                        </li>
+                        <li>
+                            <div class="yellow"></div>
+                            <span>Free Time >= Meeting Duration</span>
+                        </li>                       
+                    </ul>
+
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="settings">
+                    <div class="demo-settings">
+                        <p>SOLUTION 1</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>1- Merge both schedules in one and sort.</span>
+                            </li>
+                            <li>
+                                <span>2- Find the free time and check if is possible do the meeting(duration and outbound).</span>
+                            </li>
+                        </ul>
+                        <p>SOLUTION 2</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>1- Find the free time for each person checking duration and outbound.</span>
+                            </li>
+                            <li>
+                                <span>2- Compare both "free time" lists and check if is possible do the meeting(duration).</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- #END# Right Sidebar -->
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="block-header">
+                <canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jquery Core Js -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Select Plugin Js -->
+    <script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- Slimscroll Plugin Js -->
+    <script src="plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="plugins/node-waves/waves.js"></script>
+    <script type="text/javascript" src="plugins/toastify/toastify.min.js"></script>
+    <script type="text/javascript" src="plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <!-- Template Js -->
+    <script src="js/admin.js"></script>
+	<!-- APP JS -->
+    <script src="js/app.js"></script>
+
+
+
+</body>
+
+</html>
