@@ -218,26 +218,33 @@ function meetingPlanning2(duration) {
     		let x2 = person2FreeTime[j][0];
     		let x11 = person1FreeTime[i][1];
     		let x21 = person2FreeTime[j][1];
-            let start = Math.max(x1,x2);
-            let end = Math.min(x11,x21);
-			incrementTimer(500);
-			setTimeout(() => {  drawCursor(x1/60*persona1Schedule.ScheduleWidth/24 + persona1Schedule.startX,50,5,8,"green"); }, timer);
-			setTimeout(() => {  drawCursor(x2/60*persona2Schedule.ScheduleWidth/24 + persona2Schedule.startX,300,5,8,"green"); }, timer);
-			setTimeout(() => {  drawCursor(x11/60*persona1Schedule.ScheduleWidth/24 + persona1Schedule.startX,50,5,8,"#f44336"); }, timer);
-			setTimeout(() => {  drawCursor(x21/60*persona2Schedule.ScheduleWidth/24 + persona2Schedule.startX,300,5,8,"#f44336"); }, timer);
+    		// This conditional for optimization, if wanna see all interval compare just remove
+    		if ((x1 <= x2 && x21 <x11  ) || (x2 >= x1 && x2 <x11 ) || (x1 > x2 && x1 <x21 ) ) {
 
-            incrementTimer(500);
-			setTimeout(() => {  cursorDelete(x1/60*persona1Schedule.ScheduleWidth/24 + persona1Schedule.startX,50); }, timer);
-			setTimeout(() => {  cursorDelete(x11/60*persona1Schedule.ScheduleWidth/24 + persona1Schedule.startX,50); }, timer);
-			setTimeout(() => {  cursorDelete(x2/60*persona2Schedule.ScheduleWidth/24 + persona2Schedule.startX,300); }, timer);
-			setTimeout(() => {  cursorDelete(x21/60*persona2Schedule.ScheduleWidth/24 + persona2Schedule.startX,300); }, timer);
-			
-			setTimeout(() => {  checkInterval(listValidMeet,end,start,duration); }, timer);
-			incrementTimer(1500);
-			setTimeout(() => {  cursorDelete(start/60*persona1Schedule.ScheduleWidth/24 + persona1Schedule.startX,50); }, timer);
-			setTimeout(() => {  cursorDelete(end/60*persona1Schedule.ScheduleWidth/24 + persona1Schedule.startX,50); }, timer);
-			setTimeout(() => {  cursorDelete(start/60*persona2Schedule.ScheduleWidth/24 + persona2Schedule.startX,300); }, timer);
-			setTimeout(() => {  cursorDelete(end/60*persona2Schedule.ScheduleWidth/24 + persona2Schedule.startX,300); }, timer);
+    			let start = Math.max(x1,x2);
+	            let end = Math.min(x11,x21);
+				incrementTimer(500);
+				setTimeout(() => {  drawCursor(x1/60*persona1Schedule.ScheduleWidth/24 + persona1Schedule.startX,50,5,8,"green"); }, timer);
+				setTimeout(() => {  drawCursor(x2/60*persona2Schedule.ScheduleWidth/24 + persona2Schedule.startX,300,5,8,"green"); }, timer);
+				setTimeout(() => {  drawCursor(x11/60*persona1Schedule.ScheduleWidth/24 + persona1Schedule.startX,50,5,8,"#f44336"); }, timer);
+				setTimeout(() => {  drawCursor(x21/60*persona2Schedule.ScheduleWidth/24 + persona2Schedule.startX,300,5,8,"#f44336"); }, timer);
+
+	            incrementTimer(500);
+				setTimeout(() => {  cursorDelete(x1/60*persona1Schedule.ScheduleWidth/24 + persona1Schedule.startX,50); }, timer);
+				setTimeout(() => {  cursorDelete(x11/60*persona1Schedule.ScheduleWidth/24 + persona1Schedule.startX,50); }, timer);
+				setTimeout(() => {  cursorDelete(x2/60*persona2Schedule.ScheduleWidth/24 + persona2Schedule.startX,300); }, timer);
+				setTimeout(() => {  cursorDelete(x21/60*persona2Schedule.ScheduleWidth/24 + persona2Schedule.startX,300); }, timer);
+				
+				setTimeout(() => {  checkInterval(listValidMeet,end,start,duration); }, timer);
+				incrementTimer(1500);
+				setTimeout(() => {  cursorDelete(start/60*persona1Schedule.ScheduleWidth/24 + persona1Schedule.startX,50); }, timer);
+				setTimeout(() => {  cursorDelete(end/60*persona1Schedule.ScheduleWidth/24 + persona1Schedule.startX,50); }, timer);
+				setTimeout(() => {  cursorDelete(start/60*persona2Schedule.ScheduleWidth/24 + persona2Schedule.startX,300); }, timer);
+				setTimeout(() => {  cursorDelete(end/60*persona2Schedule.ScheduleWidth/24 + persona2Schedule.startX,300); }, timer);
+
+
+    		}
+            
     	}
     }
     incrementTimer(500);
